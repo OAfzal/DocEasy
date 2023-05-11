@@ -1,0 +1,7 @@
+{
+    "prompts": [
+        "Simplify the following piece of text:\n{text}",
+        "ELI5: {text}",
+        "Simplify the following article conceptually:\n{text}"
+    ]
+}

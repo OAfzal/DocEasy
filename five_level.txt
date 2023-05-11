@@ -1,0 +1,52 @@
+
+Level 1 (Child):
+
+Use simple and relatable language.
+Break down complex concepts into smaller, understandable parts.
+Use examples or analogies that children can easily grasp.
+Focus on the most basic aspects of the topic, avoiding technical jargon or intricate details.
+Level 2 (Teenager):
+
+Use clear and concise language.
+Introduce key concepts or terms related to the topic.
+Provide a general overview of the subject without delving too deep into technicalities.
+Use relatable examples, stories, or analogies to help illustrate the concepts.
+Level 3 (College Student):
+
+Use more specialized language, but still maintain clarity.
+Explain the topic in greater detail, including core principles, theories, or methods.
+Address common misconceptions or questions that may arise in a beginner's understanding.
+Encourage critical thinking and exploration of the topic, connecting it to broader concepts or fields of study.
+Level 4 (Graduate Student):
+
+Use technical language and terminology specific to the field.
+Dive into advanced aspects of the topic, including cutting-edge research, debates, or challenges.
+Discuss the implications, limitations, or potential applications of the topic.
+Encourage deep analysis and critical evaluation of the subject matter, as well as the consideration of alternative viewpoints or theories.
+Level 5 (Expert):
+
+Use highly specialized and advanced language, reflecting deep expertise in the field.
+Discuss the most intricate aspects of the topic, including controversies, unresolved questions, or emerging research.
+Explore the nuances and complexities of the subject matter, acknowledging the potential for uncertainty or disagreement among experts.
+Encourage rigorous discussion, debate, and collaboration to advance the understanding of the topic and push the boundaries of knowledge.
+
+
+
+Future Work:
+
+Given the subjective nature of the task the idea is to solve it in the following way:
+
+1. The above 5 levels is approximately where any human being can be classified
+
+2. Age would be the first identifier in persona selection but the primary
+    attribute would be the domain knowledge as right after the teenager level
+
+3. The idea is to have a user_persona help in select a user_embedding which would
+    then be personalized as the user prompts with the chatbot
+    This could be achieved in a PEFT way where in the PEFT weights would be adjusted
+    for the user
+
+4. The user_embedding would essentally contain metadata about the user and theories
+    knowledge. This is what would essentially determine how the explaining is done
+
+
